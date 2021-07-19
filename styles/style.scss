@@ -1,0 +1,60 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/* style Code */
+.stats-preview{
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card-stats{
+        min-height: 50vh;
+        width: 75%;
+        .card-stats-box-one{
+            background: hsl(244, 38%, 16%);
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            color: hsl(0, 0%, 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .container{
+                margin: 0 50px;
+            }
+            .main-heading{
+                color: hsl(0, 0%, 100%);
+                font-family: 'Inter', sans-serif;
+                font-weight: 700;
+                font-size: 38px;
+                .purple{
+                    color: hsl(277, 64%, 61%);
+                }
+            }
+            .stats-para{
+                font-size: 18px;
+                font-family: 'Lexend Deca', sans-serif;
+                color: hsla(0, 0%, 100%, 0.50);
+            }
+            .values{
+                font-family: 'Inter', sans-serif;
+                font-weight: 700;
+            }
+            .stats-sub-title{
+                font-size: 13px;
+                font-family: 'Lexend Deca', sans-serif;
+                color: hsla(0, 0%, 100%, 0.50);
+                text-transform: uppercase;
+            }
+        }
+        .card-stats-box-two{
+            background-image: linear-gradient(hsla(277, 64%, 61%, 0.45), hsla(277, 64%, 61%, 0.45)), url(../images/image-header-desktop.jpg);
+            background-size: cover;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-repeat: no-repeat;
+            
+        }
+    }
+}

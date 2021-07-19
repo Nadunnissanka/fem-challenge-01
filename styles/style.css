@@ -1,0 +1,81 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+/* style Code */
+.stats-preview {
+  height: 100vh;
+  background-color: #090b1a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stats-preview .card-stats {
+  min-height: 50vh;
+  width: 75%;
+}
+
+.stats-preview .card-stats .card-stats-box-one {
+  background: #1b1938;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.stats-preview .card-stats .card-stats-box-one .container {
+  margin: 0 50px;
+}
+
+.stats-preview .card-stats .card-stats-box-one .main-heading {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.stats-preview .card-stats .card-stats-box-one .main-heading .purple {
+  color: #aa5cdb;
+}
+
+.stats-preview .card-stats .card-stats-box-one .stats-para {
+  font-size: 18px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.stats-preview .card-stats .card-stats-box-one .values {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.stats-preview .card-stats .card-stats-box-one .stats-sub-title {
+  font-size: 13px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+.stats-preview .card-stats .card-stats-box-two {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 92, 219, 0.45)), to(rgba(170, 92, 219, 0.45))), url(../images/image-header-desktop.jpg);
+  background-image: linear-gradient(rgba(170, 92, 219, 0.45), rgba(170, 92, 219, 0.45)), url(../images/image-header-desktop.jpg);
+  background-size: cover;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */
