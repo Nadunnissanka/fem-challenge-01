@@ -1,5 +1,7 @@
 # Frontend Mentor - Stats preview card component
 
+final desktop product: https://nadunnissanka.github.io/fem-challenge-01/
+
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
